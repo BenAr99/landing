@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body { 
+    margin: 0 250px;
+    height: 100%;
+    justify-content: center;
+}
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;    
+    line-height: 22px;    
+}
+.main-nav a:hover {
+    color: #070707;
+ }
+li{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #828282;
+    font-weight: bold;
+}
+html{
+    height: 100vh;
+}
+header {
+    padding: 16px 0;
+    height: 86px;
+    border-bottom: 1px solid #828282;
+}
+.container-brief-description {
+    margin-top:40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.name {
+    font-size: 47px;
+    line-height: 57px;
+    color: #070707;
+}
+.brief-description {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.translite {
+    font-size: 16px;
+    line-height: 20px;
+    transform: rotate(-90deg);
+    color: #828282;
+}
+.photo-personality {
+    padding-top: 50px;
+    padding-bottom: 104px;
+    position: static;
+    width: 100%;
+    height: 100%;
+    left: 250px;
+}
+
+
+.container-about-me {
+    background: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0;
+}
+h1 {
+    color: #070707;
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 17px;
+}
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+.about-me-text .about-me-text-item:not(:last-child) {
+    margin-bottom: 17px;
+}
+
+.skills-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    font-size: 34px;
+    line-height: 42px;
+    margin-top: 91px;
+}
+.skills-text {
+    font-size: 18px;
+    line-height: 22px; 
+}
+.skills-photo-applications {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.skills-application {
+    border-radius: 15%;
+    width: 100px;
+    height: 100px;
+}
+.skills-photo-apllication-text {
+    display: flex;
+    flex-direction: column;
+    
+}
